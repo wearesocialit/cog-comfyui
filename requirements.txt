@@ -20,12 +20,13 @@ kornia>=0.7.1
 websocket-client==1.6.3
 diffusers>=0.31.0
 av>=14.2.0
-comfyui-frontend-package==1.20.7
-comfyui-workflow-templates==0.1.20
+comfyui-frontend-package==1.22.2
+comfyui-workflow-templates==0.1.29
 dill
 webcolors
 albumentations
 pydantic~=2.0
+pydantic-settings~=2.0
 cmake
 imageio
 joblib
