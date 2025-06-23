@@ -2,6 +2,35 @@
 
 - [Update ComfyUI to latest](https://github.com/comfyanonymous/ComfyUI/compare/f2289a1...ae0e7c4)
 
+New depth anything weights:
+
+- [depth_anything_v2_vitg_fp32.safetensors (depthanything)](https://huggingface.co/Nap/depth_anything_v2_vitg/blob/main/depth_anything_v2_vitg_fp32.safetensors)
+
+New birefnet weights:
+
+- [Matting-Lite.safetensors (birefnet)](https://huggingface.co/ZhengPeng7/BiRefNet_lite-matting/blob/main/model.safetensors)
+- [Matting-HR.safetensors (birefnet)](https://huggingface.co/ZhengPeng7/BiRefNet_HR-matting/blob/main/model.safetensors)
+- [General-reso_512.safetensors (birefnet)](https://huggingface.co/ZhengPeng7/BiRefNet_512x512/blob/main/model.safetensors)
+- [General-legacy.safetensors (birefnet)](https://huggingface.co/ZhengPeng7/BiRefNet-legacy/blob/main/model.safetensors)
+- [General-dynamic.safetensors (birefnet)](https://huggingface.co/ZhengPeng7/BiRefNet_dynamic/blob/main/model.safetensors)
+
+Updated custom nodes:
+
+- [Updated ComfyUI-LTXVideo](https://github.com/Lightricks/ComfyUI-LTXVideo/compare/6e9e6de...e87087e)
+- [Updated ComfyUI-DepthAnythingV2](https://github.com/kijai/ComfyUI-DepthAnythingV2/compare/9d7cb8c...d505cbc)
+- [Updated ComfyUI_BiRefNet_ll](https://github.com/lldacing/ComfyUI_BiRefNet_ll/compare/db2564c...5443a2a)
+- [Updated ComfyUI-SUPIR](https://github.com/kijai/ComfyUI-SUPIR/compare/29f2e8b...6fe7a3f)
+- [Updated rgthree-comfy](https://github.com/rgthree/rgthree-comfy/compare/b775441...f754c47)
+- [Updated ComfyUI-IC-Light](https://github.com/kijai/ComfyUI-IC-Light/compare/0208191...22811d9)
+- [Updated ComfyUI-KJNodes](https://github.com/kijai/ComfyUI-KJNodes/compare/b95b79e...f7eb33a)
+- [Updated was-node-suite-comfyui](https://github.com/WASasquatch/was-node-suite-comfyui/compare/1cd8d30...ea935d1)
+- [Updated ComfyUI_UltimateSDUpscale](https://github.com/ssitu/ComfyUI_UltimateSDUpscale/compare/d033884...3d2b9d0)
+- [Updated efficiency-nodes-comfyui](https://github.com/jags111/efficiency-nodes-comfyui/compare/9e3c5aa...7dc3c93)
+- [Updated comfyui-tooling-nodes](https://github.com/Acly/comfyui-tooling-nodes/compare/bff22b8...5ef2fdd)
+- [Updated ComfyUI-Logic](https://github.com/theUpsider/ComfyUI-Logic/compare/42d4f3d...214cfba)
+- [Updated ComfyUI-Inspire-Pack](https://github.com/ltdrdata/ComfyUI-Inspire-Pack/compare/291d3dd...3fc749d)
+- [Updated comfyui_controlnet_aux](https://github.com/Fannovel16/comfyui_controlnet_aux/compare/83463c2...59b027e)
+
 ## 2025-05-29
 
 - [Update ComfyUI to latest](https://github.com/comfyanonymous/ComfyUI/compare/577de83...f2289a1)
