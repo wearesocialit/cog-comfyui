@@ -2,6 +2,10 @@
 
 - [Update ComfyUI to latest](https://github.com/comfyanonymous/ComfyUI/compare/f2289a1...ae0e7c4)
 
+New nodes:
+
+- [Add ComfyUI-RMBG](https://github.com/1038lab/ComfyUI-RMBG) custom node
+
 New depth anything weights:
 
 - [depth_anything_v2_vitg_fp32.safetensors (depthanything)](https://huggingface.co/Nap/depth_anything_v2_vitg/blob/main/depth_anything_v2_vitg_fp32.safetensors)
