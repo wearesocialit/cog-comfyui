@@ -40,8 +40,16 @@ class Predictor(BasePredictor):
         self.comfyUI.start_server(OUTPUT_DIR, INPUT_DIR)
 
     def handle_user_weights(self, weights: str):
-        print(f"Downloading user weights from: {weights}")
-        WeightsDownloader.download("weights.tar", weights, config["USER_WEIGHTS_PATH"])
+        if hasattr(weights, "url"):
+            if weights.url.startswith("http"):
+                weights_url = weights.url
+            else:
+                weights_url = "https://replicate.delivery/" + weights.url
+        else:
+            weights_url = weights
+
+        print(f"Downloading user weights from: {weights_url}")
+        WeightsDownloader.download("weights.tar", weights_url, config["USER_WEIGHTS_PATH"])
         for item in os.listdir(config["USER_WEIGHTS_PATH"]):
             source = os.path.join(config["USER_WEIGHTS_PATH"], item)
             destination = os.path.join(config["MODELS_PATH"], item)
