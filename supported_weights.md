@@ -816,11 +816,16 @@
 - COD.safetensors
 - DIS-TR_TEs.safetensors
 - DIS.safetensors
+- General-dynamic.safetensors
 - General-HR.safetensors
+- General-legacy.safetensors
 - General-Lite-2K.safetensors
 - General-Lite.safetensors
+- General-reso_512.safetensors
 - General.safetensors
 - HRSOD.safetensors
+- Matting-HR.safetensors
+- Matting-Lite.safetensors
 - Matting.safetensors
 - Portrait.safetensors
 - pvt_v2_b2.pth
@@ -838,6 +843,7 @@
 - depth_anything_v2_metric_vkitti_vitl_fp32.safetensors
 - depth_anything_v2_vitb_fp16.safetensors
 - depth_anything_v2_vitb_fp32.safetensors
+- depth_anything_v2_vitg_fp32.safetensors
 - depth_anything_v2_vitl_fp16.safetensors
 - depth_anything_v2_vitl_fp32.safetensors
 - depth_anything_v2_vits_fp16.safetensors
