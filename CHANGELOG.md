@@ -4,7 +4,48 @@
 
 New nodes:
 
+- [Add ComfyUI-WanVideoWrapper](https://github.com/kijai/ComfyUI-WanVideoWrapper) custom node
 - [Add ComfyUI-RMBG](https://github.com/1038lab/ComfyUI-RMBG) custom node
+
+New wan weights:
+
+- [Wan2_1_VACE_1_3B_preview_bf16.safetensors (diffusion_models)](https://huggingface.co/Kijai/WanVideo_comfy/blob/main/Wan2_1_VACE_1_3B_preview_bf16.safetensors)
+- [Wan2_1-VACE_module_1_3B_bf16.safetensors (diffusion_models)](https://huggingface.co/Kijai/WanVideo_comfy/blob/main/Wan2_1-VACE_module_1_3B_bf16.safetensors)
+- [Wan2_1-VACE_module_14B_fp8_e4m3fn.safetensors (diffusion_models)](https://huggingface.co/Kijai/WanVideo_comfy/blob/main/Wan2_1-VACE_module_14B_fp8_e4m3fn.safetensors)
+- [Wan2_1-VACE_module_14B_bf16.safetensors (diffusion_models)](https://huggingface.co/Kijai/WanVideo_comfy/blob/main/Wan2_1-VACE_module_14B_bf16.safetensors)
+- [Wan2_1_VAE_fp32.safetensors (vae)](https://huggingface.co/Kijai/WanVideo_comfy/blob/main/Wan2_1_VAE_fp32.safetensors)
+- [WanVideo_2_1_Multitalk_14B_fp8_e4m3fn.safetensors (diffusion_models)](https://huggingface.co/Kijai/WanVideo_comfy/blob/main/WanVideo_2_1_Multitalk_14B_fp8_e4m3fn.safetensors)
+- [Wan2_1_kwai_recammaster_1_3B_step20000_bf16.safetensors (diffusion_models)](https://huggingface.co/Kijai/WanVideo_comfy/blob/main/Wan2_1_kwai_recammaster_1_3B_step20000_bf16.safetensors)
+- [Wan2_1-Wan2_1-Fun-V1_1-14B-Control-Camera_fp8_e4m3fn.safetensors (diffusion_models)](https://huggingface.co/Kijai/WanVideo_comfy/blob/main/Wan2_1-Wan2_1-Fun-V1_1-14B-Control-Camera_fp8_e4m3fn.safetensors)
+- [Wan2_1-Wan-I2V-MAGREF-14B_fp8_e4m3fn.safetensors (diffusion_models)](https://huggingface.co/Kijai/WanVideo_comfy/blob/main/Wan2_1-Wan-I2V-MAGREF-14B_fp8_e4m3fn.safetensors)
+- [Wan2_1-T2V-1_3B_fp8_e4m3fn.safetensors (diffusion_models)](https://huggingface.co/Kijai/WanVideo_comfy/blob/main/Wan2_1-T2V-1_3B_fp8_e4m3fn.safetensors)
+- [Wan2_1-T2V-1_3B_fp32.safetensors (diffusion_models)](https://huggingface.co/Kijai/WanVideo_comfy/blob/main/Wan2_1-T2V-1_3B_fp32.safetensors)
+- [Wan2_1-T2V-1_3B_bf16.safetensors (diffusion_models)](https://huggingface.co/Kijai/WanVideo_comfy/blob/main/Wan2_1-T2V-1_3B_bf16.safetensors)
+- [Wan2_1-T2V-14B_fp8_e5m2.safetensors (diffusion_models)](https://huggingface.co/Kijai/WanVideo_comfy/blob/main/Wan2_1-T2V-14B_fp8_e5m2.safetensors)
+- [Wan2_1-T2V-14B_fp8_e4m3fn.safetensors (diffusion_models)](https://huggingface.co/Kijai/WanVideo_comfy/blob/main/Wan2_1-T2V-14B_fp8_e4m3fn.safetensors)
+- [Wan2_1-T2V-14B_CausVid_fp8_e4m3fn.safetensors (diffusion_models)](https://huggingface.co/Kijai/WanVideo_comfy/blob/main/Wan2_1-T2V-14B_CausVid_fp8_e4m3fn.safetensors)
+- [Wan2_1-MoviiGen1_1_fp8_e4m3fn.safetensors (diffusion_models)](https://huggingface.co/Kijai/WanVideo_comfy/blob/main/Wan2_1-MoviiGen1_1_fp8_e4m3fn.safetensors)
+- [Wan2_1-MoviiGen1_1_fp16.safetensors (diffusion_models)](https://huggingface.co/Kijai/WanVideo_comfy/blob/main/Wan2_1-MoviiGen1_1_fp16.safetensors)
+- [Wan2_1-MiniMaxRemover_1_3B_fp16.safetensors (diffusion_models)](https://huggingface.co/Kijai/WanVideo_comfy/blob/main/Wan2_1-MiniMaxRemover_1_3B_fp16.safetensors)
+- [Wan2_1-I2V-ATI-14B_fp8_e5m2.safetensors (diffusion_models)](https://huggingface.co/Kijai/WanVideo_comfy/blob/main/Wan2_1-I2V-ATI-14B_fp8_e5m2.safetensors)
+- [Wan2_1-I2V-ATI-14B_fp8_e4m3fn.safetensors (diffusion_models)](https://huggingface.co/Kijai/WanVideo_comfy/blob/main/Wan2_1-I2V-ATI-14B_fp8_e4m3fn.safetensors)
+- [Wan2_1-I2V-ATI-14B_fp16.safetensors (diffusion_models)](https://huggingface.co/Kijai/WanVideo_comfy/blob/main/Wan2_1-I2V-ATI-14B_fp16.safetensors)
+- [Wan2_1-I2V-14B-720P_fp8_e5m2.safetensors (diffusion_models)](https://huggingface.co/Kijai/WanVideo_comfy/blob/main/Wan2_1-I2V-14B-720P_fp8_e5m2.safetensors)
+- [Wan2_1-I2V-14B-720P_fp8_e4m3fn.safetensors (diffusion_models)](https://huggingface.co/Kijai/WanVideo_comfy/blob/main/Wan2_1-I2V-14B-720P_fp8_e4m3fn.safetensors)
+- [Wan2_1-I2V-14B-480P_fp8_e5m2.safetensors (diffusion_models)](https://huggingface.co/Kijai/WanVideo_comfy/blob/main/Wan2_1-I2V-14B-480P_fp8_e5m2.safetensors)
+- [Wan2_1-I2V-14B-480P_fp8_e4m3fn.safetensors (diffusion_models)](https://huggingface.co/Kijai/WanVideo_comfy/blob/main/Wan2_1-I2V-14B-480P_fp8_e4m3fn.safetensors)
+- [Wan2_1-Fun-V1_1-14B-Control_fp8_e4m3fn.safetensors (diffusion_models)](https://huggingface.co/Kijai/WanVideo_comfy/blob/main/Wan2_1-Fun-V1_1-14B-Control_fp8_e4m3fn.safetensors)
+- [Wan2_1-FLF2V-14B-720P_fp8_e4m3fn.safetensors (diffusion_models)](https://huggingface.co/Kijai/WanVideo_comfy/blob/main/Wan2_1-FLF2V-14B-720P_fp8_e4m3fn.safetensors)
+- [Wan2_1-FLF2V-14B-720P_fp16.safetensors (diffusion_models)](https://huggingface.co/Kijai/WanVideo_comfy/blob/main/Wan2_1-FLF2V-14B-720P_fp16.safetensors)
+- [Wan2_1-AccVideo-T2V-14B_fp8_e4m3fn.safetensors (diffusion_models)](https://huggingface.co/Kijai/WanVideo_comfy/blob/main/Wan2_1-AccVideo-T2V-14B_fp8_e4m3fn.safetensors)
+- [Wan2.1-Fun-InP-14B_fp8_e5m2.safetensors (diffusion_models)](https://huggingface.co/Kijai/WanVideo_comfy/blob/main/Wan2.1-Fun-InP-14B_fp8_e5m2.safetensors)
+- [Wan2.1-Fun-InP-14B_fp8_e4m3fn.safetensors (diffusion_models)](https://huggingface.co/Kijai/WanVideo_comfy/blob/main/Wan2.1-Fun-InP-14B_fp8_e4m3fn.safetensors)
+- [Wan2.1-Fun-Control-14B_fp8_e5m2.safetensors (diffusion_models)](https://huggingface.co/Kijai/WanVideo_comfy/blob/main/Wan2.1-Fun-Control-14B_fp8_e5m2.safetensors)
+- [Wan2.1-Fun-Control-14B_fp8_e4m3fn.safetensors (diffusion_models)](https://huggingface.co/Kijai/WanVideo_comfy/blob/main/Wan2.1-Fun-Control-14B_fp8_e4m3fn.safetensors)
+- [Phantom-Wan-1_3B_fp32.safetensors (diffusion_models)](https://huggingface.co/Kijai/WanVideo_comfy/blob/main/Phantom-Wan-1_3B_fp32.safetensors)
+- [Phantom-Wan-1_3B_fp16.safetensors (diffusion_models)](https://huggingface.co/Kijai/WanVideo_comfy/blob/main/Phantom-Wan-1_3B_fp16.safetensors)
+- [Phantom-Wan-14B_fp8_e4m3fn.safetensors (diffusion_models)](https://huggingface.co/Kijai/WanVideo_comfy/blob/main/Phantom-Wan-14B_fp8_e4m3fn.safetensors)
+- [Phantom-Wan-14B_fp16.safetensors (diffusion_models)](https://huggingface.co/Kijai/WanVideo_comfy/blob/main/Phantom-Wan-14B_fp16.safetensors)
 
 New depth anything weights:
 

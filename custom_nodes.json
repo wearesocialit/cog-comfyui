@@ -269,5 +269,9 @@
   {
     "repo": "https://github.com/1038lab/ComfyUI-RMBG",
     "commit": "8577848"
+  },
+  {
+    "repo": "https://github.com/kijai/ComfyUI-WanVideoWrapper",
+    "commit": "8479624"
   }
 ]
