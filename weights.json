@@ -596,6 +596,7 @@
     "flux1-dev-fp8-e5m2.safetensors",
     "flux1-fill-dev.safetensors",
     "flux1-Fill-Dev_FP8.safetensors",
+    "flux1-kontext-dev.safetensors",
     "flux1-schnell-fp8-e4m3fn.safetensors",
     "hidream_i1_dev_bf16.safetensors",
     "hidream_i1_dev_fp8.safetensors",

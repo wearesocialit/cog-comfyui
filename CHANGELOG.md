@@ -1,3 +1,8 @@
+## 2025-06-26
+
+- [Update ComfyUI to latest](https://github.com/comfyanonymous/ComfyUI/compare/ae0e7c4...7d8cf4c)
+- [flux1-kontext-dev.safetensors (diffusion_models)](https://huggingface.co/black-forest-labs/FLUX.1-Kontext-dev/blob/main/flux1-kontext-dev.safetensors)
+
 ## 2025-06-23
 
 - [Update ComfyUI to latest](https://github.com/comfyanonymous/ComfyUI/compare/f2289a1...ae0e7c4)
