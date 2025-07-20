@@ -547,6 +547,9 @@
     "Kolors-IP-Adapter-Plus.bin",
     "SD3.5-Large-IP-Adapter.bin"
   ],
+  "IPADAPTER-FLUX": [
+    "ip-adapter.bin"
+  ],
   "VAE": [
     "ae.safetensors",
     "cosmos_cv8x8x8_1.0.safetensors",

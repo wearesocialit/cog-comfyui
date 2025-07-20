@@ -1,3 +1,49 @@
+## 2025-07-18
+
+- [Update ComfyUI to latest](https://github.com/comfyanonymous/ComfyUI/compare/491fafb...1da5639)
+
+New weights:
+
+- [ip-adapter.bin (ipadapter-flux)](https://huggingface.co/InstantX/FLUX.1-dev-IP-Adapter/blob/main/ip-adapter.bin)
+
+Updated ComfyUI custom nodes:
+
+- [Updated ComfyUI-Impact-Pack](https://github.com/ltdrdata/ComfyUI-Impact-Pack/compare/07a18e7..b3a815b)
+- [Updated was-node-suite-comfyui](https://github.com/ltdrdata/was-node-suite-comfyui/compare/ea935d1...ea935d1)
+
+## 2025-07-17
+
+Updated ComfyUI custom nodes:
+
+- [Updated ComfyUI-RMBG](https://github.com/1038lab/ComfyUI-RMBG/compare/8577848...4b2e8ce)
+- [Updated ComfyUI-LTXVideo](https://github.com/Lightricks/ComfyUI-LTXVideo/compare/e87087e...36fdaf5)
+- [Updated rgthree-comfy](https://github.com/rgthree/rgthree-comfy/compare/f754c47...944d535)
+- [Updated ComfyUI-KJNodes](https://github.com/kijai/ComfyUI-KJNodes/compare/f7eb33a...ad37ce6)
+- [Updated ComfyUI-ReActor](https://github.com/Gourieff/ComfyUI-ReActor/compare/d901609...9b17e4c)
+- [Updated ComfyUI_UltimateSDUpscale](https://github.com/ssitu/ComfyUI_UltimateSDUpscale/compare/3d2b9d0...95fb260)
+- [Updated efficiency-nodes-comfyui](https://github.com/jags111/efficiency-nodes-comfyui/compare/7dc3c93...f0971b5)
+
+## 2025-07-16
+
+New nodes:
+
+- [Add ComfyUI-Manager](https://github.com/ltdrdata/ComfyUI-Manager) custom node
+- [Add ComfyUI-Impact-Subpack](https://github.com/ltdrdata/ComfyUI-Impact-Subpack) custom node
+- [Add ComfyUI_IPAdapter_plus_V2](https://github.com/chflame163/ComfyUI_IPAdapter_plus_V2) custom node
+- [Add comfyui-various](https://github.com/jamesWalker55/comfyui-various) custom node
+- [Add facerestore_cf](https://github.com/mav-rik/facerestore_cf) custom node
+- [Add ComfyLiterals](https://github.com/M1kep/ComfyLiterals) custom node
+- [Add ComfyUI_AdvancedRefluxControl](https://github.com/kaibioinfo/ComfyUI_AdvancedRefluxControl) custom node
+- [Add ComfyUI-IPAdapter-Flux](https://github.com/Shakker-Labs/ComfyUI-IPAdapter-Flux) custom node
+- [Add ComfyUI-JakeUpgrade](https://github.com/jakechai/ComfyUI-JakeUpgrade) custom node
+- [Add ComfyUI-SAM2](https://github.com/neverbiasu/ComfyUI-SAM2) custom node
+- [Add ComfyUI-Teeth](https://github.com/steelan9199/ComfyUI-Teeth) custom node
+- [Add ComfyUI-InpaintEasy](https://github.com/CY-CHENYUE/ComfyUI-InpaintEasy) custom node
+- [Add ComfyUI-enricos-nodes](https://github.com/erosDiffusion/ComfyUI-enricos-nodes) custom node
+- [Add ComfyUI-Easy-Use](https://github.com/yolain/ComfyUI-Easy-Use) custom node
+- [Add comfyui-art-venture](https://github.com/sipherxyz/comfyui-art-venture) custom node
+- [Add ComfyI2I](https://github.com/ManglerFTW/ComfyI2I) custom node
+
 ## 2025-06-26
 
 - [Update ComfyUI to latest](https://github.com/comfyanonymous/ComfyUI/compare/ae0e7c4...7d8cf4c)

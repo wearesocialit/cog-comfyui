@@ -238,6 +238,7 @@ def get_subfolder():
         "embeddings",
         "controlnet",
         "ipadapter",
+        "ipadapter-flux",
         "vae",
         "diffusion_models",
         "photomaker",

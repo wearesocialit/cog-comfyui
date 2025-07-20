@@ -405,6 +405,10 @@
 - Kolors-IP-Adapter-Plus.bin
 - SD3.5-Large-IP-Adapter.bin (Also available as ip_sd35l_instantx.bin)
 
+## IPAdapter-Flux
+
+- ip-adapter.bin
+
 ## ControlNet
 
 - animatediff_controlnet.ckpt

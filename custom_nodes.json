@@ -8,9 +8,13 @@
     "commit": "59b027e"
   },
   {
-    "repo": "https://github.com/fofr/ComfyUI-Impact-Pack",
-    "commit": "9ad8f85",
+    "repo": "https://github.com/ltdrdata/ComfyUI-Impact-Pack",
+    "commit": "b3a815b",
     "notes": "Fork of https://github.com/ltdrdata/ComfyUI-Impact-Pack which prevents automatic installation of dependencies"
+  },
+  {
+    "repo": "https://github.com/ltdrdata/ComfyUI-Impact-Subpack",
+    "commit": "5b4e550"
   },
   {
     "repo": "https://github.com/ltdrdata/ComfyUI-Inspire-Pack",
@@ -38,7 +42,7 @@
   },
   {
     "repo": "https://github.com/jags111/efficiency-nodes-comfyui",
-    "commit": "7dc3c93"
+    "commit": "f0971b5"
   },
   {
     "repo": "https://github.com/Derfuu/Derfuu_ComfyUI_ModdedNodes",
@@ -54,7 +58,7 @@
   },
   {
     "repo": "https://github.com/ssitu/ComfyUI_UltimateSDUpscale",
-    "commit": "3d2b9d0"
+    "commit": "95fb260"
   },
   {
     "repo": "https://github.com/cubiq/ComfyUI_essentials",
@@ -74,14 +78,14 @@
   },
   {
     "repo": "https://github.com/Gourieff/ComfyUI-ReActor",
-    "commit": "d901609"
+    "commit": "9b17e4c"
   },
   {
     "repo": "https://github.com/cubiq/ComfyUI_InstantID",
     "commit": "72495e8"
   },
   {
-    "repo": "https://github.com/WASasquatch/was-node-suite-comfyui",
+    "repo": "https://github.com/ltdrdata/was-node-suite-comfyui",
     "commit": "ea935d1"
   },
   {
@@ -102,7 +106,7 @@
   },
   {
     "repo": "https://github.com/kijai/ComfyUI-KJNodes",
-    "commit": "f7eb33a"
+    "commit": "ad37ce6"
   },
   {
     "repo": "https://github.com/Fannovel16/ComfyUI-Frame-Interpolation",
@@ -134,7 +138,7 @@
   },
   {
     "repo": "https://github.com/rgthree/rgthree-comfy",
-    "commit": "f754c47"
+    "commit": "944d535"
   },
   {
     "repo": "https://github.com/fofr/comfyui-prompter-fofrai",
@@ -260,7 +264,7 @@
   },
   {
     "repo": "https://github.com/Lightricks/ComfyUI-LTXVideo",
-    "commit": "e87087e"
+    "commit": "36fdaf5"
   },
   {
     "repo": "https://github.com/ostris/ComfyUI-Advanced-Vision",
@@ -268,10 +272,70 @@
   },
   {
     "repo": "https://github.com/1038lab/ComfyUI-RMBG",
-    "commit": "8577848"
+    "commit": "4b2e8ce"
   },
   {
     "repo": "https://github.com/kijai/ComfyUI-WanVideoWrapper",
     "commit": "8479624"
+  },
+  {
+    "repo": "https://github.com/sipherxyz/comfyui-art-venture",
+    "commit": "746c1ce"
+  },
+  {
+    "repo": "https://github.com/yolain/ComfyUI-Easy-Use",
+    "commit": "b6bb4a3"
+  },
+  {
+    "repo": "https://github.com/erosDiffusion/ComfyUI-enricos-nodes",
+    "commit": "0ab56bd"
+  },
+  {
+    "repo": "https://github.com/CY-CHENYUE/ComfyUI-InpaintEasy",
+    "commit": "d631a03"
+  },
+  {
+    "repo": "https://github.com/steelan9199/ComfyUI-Teeth",
+    "commit": "d20eaf8"
+  },
+  {
+    "repo": "https://github.com/neverbiasu/ComfyUI-SAM2",
+    "commit": "c8cc8fb"
+  },
+  {
+    "repo": "https://github.com/jakechai/ComfyUI-JakeUpgrade",
+    "commit": "4c1a84a"
+  },
+  {
+    "repo": "https://github.com/Shakker-Labs/ComfyUI-IPAdapter-Flux",
+    "commit": "eef22b6"
+  },
+  {
+    "repo": "https://github.com/kaibioinfo/ComfyUI_AdvancedRefluxControl",
+    "commit": "2b95c2c"
+  },
+  {
+    "repo": "https://github.com/M1kep/ComfyLiterals",
+    "commit": "bdddb08"
+  },
+  {
+    "repo": "https://github.com/mav-rik/facerestore_cf",
+    "commit": "ff4d7a5"
+  },
+  {
+    "repo": "https://github.com/jamesWalker55/comfyui-various",
+    "commit": "5bd85aa"
+  },
+  {
+    "repo": "https://github.com/chflame163/ComfyUI_IPAdapter_plus_V2",
+    "commit": "24bda41"
+  },
+  {
+    "repo": "https://github.com/ltdrdata/ComfyUI-Manager",
+    "commit": "b07082a"
+  },
+  {
+    "repo": "https://github.com/ManglerFTW/ComfyI2I",
+    "commit": "2bd011b"
   }
 ]
