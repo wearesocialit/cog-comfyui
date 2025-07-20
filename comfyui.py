@@ -41,7 +41,8 @@ class ComfyUI:
         print(f"Server started in {elapsed_time:.2f} seconds")
 
     def run_server(self, output_directory, input_directory):
-        command = f"python ./ComfyUI/main.py --output-directory {output_directory} --input-directory {input_directory} --disable-metadata"
+        comfy_args = os.getenv("COMFYUI_ARGS", "--highvram --verbose DEBUG")
+        command = f"python ./ComfyUI/main.py --output-directory {output_directory} --input-directory {input_directory} --disable-metadata {comfy_args}"
 
         """
         We need to capture the stdout and stderr from the server process
