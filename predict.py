@@ -112,11 +112,11 @@ class Predictor(BasePredictor):
     def predict(
         self,
         workflow_json: str = Input(
-            description="Your ComfyUI workflow as JSON string or URL. You must use the API version of your workflow. Get it from ComfyUI using 'Save (API format)'. Instructions here: https://github.com/replicate/cog-comfyui",
+            description="Your ComfyUI workflow as JSON string or URL. You must use the API version of your workflow. Get it from ComfyUI using 'Save (API format)'. Instructions here: https://github.com/wearesocialit/cog-comfyui",
             default="",
         ),
         input_file: Path = Input(
-            description="Input image, video, tar or zip file. Read guidance on workflows and input files here: https://github.com/replicate/cog-comfyui. Alternatively, you can replace inputs with URLs in your JSON workflow and the model will download them.",
+            description="Input image, video, tar or zip file. Read guidance on workflows and input files here: https://github.com/wearesocialit/cog-comfyui. Alternatively, you can replace inputs with URLs in your JSON workflow and the model will download them.",
             default=None,
         ),
         return_temp_files: bool = Input(
