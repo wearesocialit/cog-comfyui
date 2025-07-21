@@ -19,4 +19,4 @@ build:
     - pip install git+https://github.com/facebookresearch/sam2.git
 predict: "predict.py:Predictor"
 train: "train.py:train"
-image: "r8.im/wearesocialit/any-comfyui-workflow-a100:latest"
+image: "r8.im/wearesocialit/any-comfyui-workflow-a100"
