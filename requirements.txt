@@ -78,7 +78,7 @@ zope.interface
 zope.event
 gevent
 websocket
-cog
+# cog
 ffmpeg
 groundingdino-py
 imageio_ffmpeg
