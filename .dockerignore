@@ -44,6 +44,7 @@ ComfyUI/custom_nodes/efficiency-nodes-comfyui/images
 !ComfyUI/models/facerestore_models
 !ComfyUI/models/ipadapter-flux
 !ComfyUI/models/styles
+!ComfyUI/models/controlnet
 
 # ComfyUI bits we just don’t need
 ComfyUI/tests
