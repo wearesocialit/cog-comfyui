@@ -1,4 +1,4 @@
-torch
+torch==2.7.1
 torchvision
 torchaudio
 torchsde
@@ -82,6 +82,11 @@ cog
 ffmpeg
 groundingdino-py
 imageio_ffmpeg
+attrs
+structlog
+typing_extensions
+uvicorn
+cloud-tpu-client
 
 # comfyui-art-venture
 fairscale
