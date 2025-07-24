@@ -7,8 +7,6 @@ build:
     - git-lfs
     - tree
     - nano
-    - libavformat-dev
-    - libavformat58
   python_version: "3.12"
   python_requirements: requirements.txt
   run:
