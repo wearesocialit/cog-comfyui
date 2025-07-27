@@ -4,7 +4,7 @@ import tarfile
 import zipfile
 import mimetypes
 from PIL import Image
-from typing import List
+from typing import List, Optional
 from cog import BasePredictor, Input, Path
 from comfyui import ComfyUI
 from weights_downloader import WeightsDownloader
@@ -115,9 +115,8 @@ class Predictor(BasePredictor):
             description="Your ComfyUI workflow as JSON string or URL. You must use the API version of your workflow. Get it from ComfyUI using 'Save (API format)'. Instructions here: https://github.com/wearesocialit/cog-comfyui",
             default="",
         ),
-        input_file: Path = Input(
-            description="Input image, video, tar or zip file. Read guidance on workflows and input files here: https://github.com/wearesocialit/cog-comfyui. Alternatively, you can replace inputs with URLs in your JSON workflow and the model will download them.",
-            default=None,
+        input_file: Optional[Path] = Input(
+            description="Input image, video, tar or zip file. Read guidance on workflows and input files here: https://github.com/wearesocialit/cog-comfyui. Alternatively, you can replace inputs with URLs in your JSON workflow and the model will download them."
         ),
         return_temp_files: bool = Input(
             description="Return any temporary files, such as preprocessed controlnet images. Useful for debugging.",
@@ -165,6 +164,7 @@ class Predictor(BasePredictor):
         if return_temp_files:
             output_directories.append(COMFYUI_TEMP_OUTPUT_DIR)
 
-        return optimise_images.optimise_image_files(
+        optimised_files = optimise_images.optimise_image_files(
             output_format, output_quality, self.comfyUI.get_files(output_directories)
         )
+        return [Path(p) for p in optimised_files]
