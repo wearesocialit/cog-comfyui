@@ -1,5 +1,20 @@
 ## 2025-07-28
 
+Wan 2.2 weights:
+
+- [wan2.2_t2v_low_noise_14B_fp8_scaled.safetensors (diffusion_models)](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/blob/main/split_files/diffusion_models/wan2.2_t2v_low_noise_14B_fp8_scaled.safetensors)
+- [wan2.2_t2v_low_noise_14B_fp16.safetensors (diffusion_models)](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/blob/main/split_files/diffusion_models/wan2.2_t2v_low_noise_14B_fp16.safetensors)
+- [wan2.2_t2v_high_noise_14B_fp8_scaled.safetensors (diffusion_models)](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/blob/main/split_files/diffusion_models/wan2.2_t2v_high_noise_14B_fp8_scaled.safetensors)
+- [wan2.2_t2v_high_noise_14B_fp16.safetensors (diffusion_models)](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/blob/main/split_files/diffusion_models/wan2.2_t2v_high_noise_14B_fp16.safetensors)
+- [wan2.2_i2v_low_noise_14B_fp8_scaled.safetensors (diffusion_models)](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/blob/main/split_files/diffusion_models/wan2.2_i2v_low_noise_14B_fp8_scaled.safetensors)
+- [wan2.2_i2v_low_noise_14B_fp16.safetensors (diffusion_models)](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/blob/main/split_files/diffusion_models/wan2.2_i2v_low_noise_14B_fp16.safetensors)
+- [wan2.2_i2v_high_noise_14B_fp8_scaled.safetensors (diffusion_models)](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/blob/main/split_files/diffusion_models/wan2.2_i2v_high_noise_14B_fp8_scaled.safetensors)
+- [wan2.2_i2v_high_noise_14B_fp16.safetensors (diffusion_models)](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/blob/main/split_files/diffusion_models/wan2.2_i2v_high_noise_14B_fp16.safetensors)
+- [wan2.2_ti2v_5B_fp16.safetensors (diffusion_models)](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/blob/main/split_files/diffusion_models/wan2.2_ti2v_5B_fp16.safetensors)
+- [wan2.2_vae.safetensors (vae)](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/blob/main/split_files/vae/wan2.2_vae.safetensors)
+
+Updates:
+
 - [Update ComfyUI to latest](https://github.com/comfyanonymous/ComfyUI/compare/6493709...5d4cc3b)
 - [Updated ComfyUI-WanVideoWrapper](https://github.com/kijai/ComfyUI-WanVideoWrapper/compare/8479624...998a69c)
 - [Updated ComfyUI-RMBG](https://github.com/1038lab/ComfyUI-RMBG/compare/8577848...72bc6a5)

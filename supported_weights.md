@@ -564,6 +564,7 @@
 - stable-cascade/effnet_encoder.safetensors
 - stable-cascade/stage_a.safetensors
 - vae-ft-mse-840000-ema-pruned.safetensors
+- wan2.2_vae.safetensors
 - Wan2_1_VAE_fp32.safetensors
 - wan_2.1_vae.safetensors (Also available as Wan2_1_VAE_bf16.safetensors)
 
@@ -613,6 +614,15 @@
 - wan2.1_t2v_14B_fp16.safetensors
 - wan2.1_t2v_14B_fp8_e4m3fn.safetensors
 - wan2.1_t2v_14B_fp8_scaled.safetensors
+- wan2.2_i2v_high_noise_14B_fp16.safetensors
+- wan2.2_i2v_high_noise_14B_fp8_scaled.safetensors
+- wan2.2_i2v_low_noise_14B_fp16.safetensors
+- wan2.2_i2v_low_noise_14B_fp8_scaled.safetensors
+- wan2.2_t2v_high_noise_14B_fp16.safetensors
+- wan2.2_t2v_high_noise_14B_fp8_scaled.safetensors
+- wan2.2_t2v_low_noise_14B_fp16.safetensors
+- wan2.2_t2v_low_noise_14B_fp8_scaled.safetensors
+- wan2.2_ti2v_5B_fp16.safetensors
 - Wan2_1-AccVideo-T2V-14B_fp8_e4m3fn.safetensors
 - Wan2_1-FLF2V-14B-720P_fp16.safetensors
 - Wan2_1-FLF2V-14B-720P_fp8_e4m3fn.safetensors
