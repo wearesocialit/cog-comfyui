@@ -1,3 +1,16 @@
+## 2025-07-28
+
+- [Update ComfyUI to latest](https://github.com/comfyanonymous/ComfyUI/compare/6493709...5d4cc3b)
+- [Updated ComfyUI-WanVideoWrapper](https://github.com/kijai/ComfyUI-WanVideoWrapper/compare/8479624...998a69c)
+- [Updated ComfyUI-RMBG](https://github.com/1038lab/ComfyUI-RMBG/compare/8577848...72bc6a5)
+- [Updated ComfyUI-LTXVideo](https://github.com/Lightricks/ComfyUI-LTXVideo/compare/e87087e...36fdaf5)
+- [Updated rgthree-comfy](https://github.com/rgthree/rgthree-comfy/compare/f754c47...944d535)
+- [Updated ComfyUI-KJNodes](https://github.com/kijai/ComfyUI-KJNodes/compare/f7eb33a...a6b867b)
+- [Updated ComfyUI_UltimateSDUpscale](https://github.com/ssitu/ComfyUI_UltimateSDUpscale/compare/3d2b9d0...627c871)
+- [Updated efficiency-nodes-comfyui](https://github.com/jags111/efficiency-nodes-comfyui/compare/7dc3c93...f0971b5)
+- [Updated ComfyUI-VideoHelperSuite](https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite/compare/a7ce59e...330bce6)
+- [Updated ComfyUI-Inspire-Pack](https://github.com/ltdrdata/ComfyUI-Inspire-Pack/compare/3fc749d...0422377)
+
 ## 2025-06-26
 
 - [Update ComfyUI to latest](https://github.com/comfyanonymous/ComfyUI/compare/ae0e7c4...7d8cf4c)
