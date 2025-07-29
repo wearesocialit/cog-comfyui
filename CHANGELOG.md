@@ -1,29 +1,4 @@
-## 2025-07-18
-
-- [Update ComfyUI to latest](https://github.com/comfyanonymous/ComfyUI/compare/491fafb...1da5639)
-
-New weights:
-
-- [ip-adapter.bin (ipadapter-flux)](https://huggingface.co/InstantX/FLUX.1-dev-IP-Adapter/blob/main/ip-adapter.bin)
-
-Updated ComfyUI custom nodes:
-
-- [Updated ComfyUI-Impact-Pack](https://github.com/ltdrdata/ComfyUI-Impact-Pack/compare/07a18e7..b3a815b)
-- [Updated was-node-suite-comfyui](https://github.com/ltdrdata/was-node-suite-comfyui/compare/ea935d1...ea935d1)
-
-## 2025-07-17
-
-Updated ComfyUI custom nodes:
-
-- [Updated ComfyUI-RMBG](https://github.com/1038lab/ComfyUI-RMBG/compare/8577848...4b2e8ce)
-- [Updated ComfyUI-LTXVideo](https://github.com/Lightricks/ComfyUI-LTXVideo/compare/e87087e...36fdaf5)
-- [Updated rgthree-comfy](https://github.com/rgthree/rgthree-comfy/compare/f754c47...944d535)
-- [Updated ComfyUI-KJNodes](https://github.com/kijai/ComfyUI-KJNodes/compare/f7eb33a...ad37ce6)
-- [Updated ComfyUI-ReActor](https://github.com/Gourieff/ComfyUI-ReActor/compare/d901609...9b17e4c)
-- [Updated ComfyUI_UltimateSDUpscale](https://github.com/ssitu/ComfyUI_UltimateSDUpscale/compare/3d2b9d0...95fb260)
-- [Updated efficiency-nodes-comfyui](https://github.com/jags111/efficiency-nodes-comfyui/compare/7dc3c93...f0971b5)
-
-## 2025-07-16
+## 2025-07-29
 
 New nodes:
 
@@ -43,6 +18,43 @@ New nodes:
 - [Add ComfyUI-Easy-Use](https://github.com/yolain/ComfyUI-Easy-Use) custom node
 - [Add comfyui-art-venture](https://github.com/sipherxyz/comfyui-art-venture) custom node
 - [Add ComfyI2I](https://github.com/ManglerFTW/ComfyI2I) custom node
+
+New weights:
+
+- [ip-adapter.bin (ipadapter-flux)](https://huggingface.co/InstantX/FLUX.1-dev-IP-Adapter/blob/main/ip-adapter.bin)
+
+Updated ComfyUI custom nodes:
+
+- [Updated ComfyUI-Impact-Pack](https://github.com/ltdrdata/ComfyUI-Impact-Pack/compare/07a18e7..b3a815b)
+- [Updated was-node-suite-comfyui](https://github.com/ltdrdata/was-node-suite-comfyui/compare/ea935d1...ea935d1)
+
+## 2025-07-28
+
+Wan 2.2 weights:
+
+- [wan2.2_t2v_low_noise_14B_fp8_scaled.safetensors (diffusion_models)](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/blob/main/split_files/diffusion_models/wan2.2_t2v_low_noise_14B_fp8_scaled.safetensors)
+- [wan2.2_t2v_low_noise_14B_fp16.safetensors (diffusion_models)](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/blob/main/split_files/diffusion_models/wan2.2_t2v_low_noise_14B_fp16.safetensors)
+- [wan2.2_t2v_high_noise_14B_fp8_scaled.safetensors (diffusion_models)](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/blob/main/split_files/diffusion_models/wan2.2_t2v_high_noise_14B_fp8_scaled.safetensors)
+- [wan2.2_t2v_high_noise_14B_fp16.safetensors (diffusion_models)](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/blob/main/split_files/diffusion_models/wan2.2_t2v_high_noise_14B_fp16.safetensors)
+- [wan2.2_i2v_low_noise_14B_fp8_scaled.safetensors (diffusion_models)](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/blob/main/split_files/diffusion_models/wan2.2_i2v_low_noise_14B_fp8_scaled.safetensors)
+- [wan2.2_i2v_low_noise_14B_fp16.safetensors (diffusion_models)](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/blob/main/split_files/diffusion_models/wan2.2_i2v_low_noise_14B_fp16.safetensors)
+- [wan2.2_i2v_high_noise_14B_fp8_scaled.safetensors (diffusion_models)](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/blob/main/split_files/diffusion_models/wan2.2_i2v_high_noise_14B_fp8_scaled.safetensors)
+- [wan2.2_i2v_high_noise_14B_fp16.safetensors (diffusion_models)](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/blob/main/split_files/diffusion_models/wan2.2_i2v_high_noise_14B_fp16.safetensors)
+- [wan2.2_ti2v_5B_fp16.safetensors (diffusion_models)](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/blob/main/split_files/diffusion_models/wan2.2_ti2v_5B_fp16.safetensors)
+- [wan2.2_vae.safetensors (vae)](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/blob/main/split_files/vae/wan2.2_vae.safetensors)
+
+Updates:
+
+- [Update ComfyUI to latest](https://github.com/comfyanonymous/ComfyUI/compare/6493709...5d4cc3b)
+- [Updated ComfyUI-WanVideoWrapper](https://github.com/kijai/ComfyUI-WanVideoWrapper/compare/8479624...998a69c)
+- [Updated ComfyUI-RMBG](https://github.com/1038lab/ComfyUI-RMBG/compare/8577848...72bc6a5)
+- [Updated ComfyUI-LTXVideo](https://github.com/Lightricks/ComfyUI-LTXVideo/compare/e87087e...36fdaf5)
+- [Updated rgthree-comfy](https://github.com/rgthree/rgthree-comfy/compare/f754c47...944d535)
+- [Updated ComfyUI-KJNodes](https://github.com/kijai/ComfyUI-KJNodes/compare/f7eb33a...a6b867b)
+- [Updated ComfyUI_UltimateSDUpscale](https://github.com/ssitu/ComfyUI_UltimateSDUpscale/compare/3d2b9d0...627c871)
+- [Updated efficiency-nodes-comfyui](https://github.com/jags111/efficiency-nodes-comfyui/compare/7dc3c93...f0971b5)
+- [Updated ComfyUI-VideoHelperSuite](https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite/compare/a7ce59e...330bce6)
+- [Updated ComfyUI-Inspire-Pack](https://github.com/ltdrdata/ComfyUI-Inspire-Pack/compare/3fc749d...0422377)
 
 ## 2025-06-26
 
