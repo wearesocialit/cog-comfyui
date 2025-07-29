@@ -18,7 +18,7 @@
   },
   {
     "repo": "https://github.com/ltdrdata/ComfyUI-Inspire-Pack",
-    "commit": "3fc749d"
+    "commit": "0422377"
   },
   {
     "repo": "https://github.com/theUpsider/ComfyUI-Logic",
@@ -34,7 +34,7 @@
   },
   {
     "repo": "https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite",
-    "commit": "a7ce59e"
+    "commit": "330bce6"
   },
   {
     "repo": "https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet",
@@ -58,7 +58,7 @@
   },
   {
     "repo": "https://github.com/ssitu/ComfyUI_UltimateSDUpscale",
-    "commit": "95fb260"
+    "commit": "627c871"
   },
   {
     "repo": "https://github.com/cubiq/ComfyUI_essentials",
@@ -106,7 +106,7 @@
   },
   {
     "repo": "https://github.com/kijai/ComfyUI-KJNodes",
-    "commit": "ad37ce6"
+    "commit": "a6b867b"
   },
   {
     "repo": "https://github.com/Fannovel16/ComfyUI-Frame-Interpolation",
@@ -336,6 +336,10 @@
   },
   {
     "repo": "https://github.com/ManglerFTW/ComfyI2I",
-    "commit": "2bd011b"
+    "commit": "72bc6a5"
+  },
+  {
+    "repo": "https://github.com/kijai/ComfyUI-WanVideoWrapper",
+    "commit": "998a69c"
   }
 ]
