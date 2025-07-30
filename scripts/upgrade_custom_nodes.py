@@ -17,9 +17,13 @@ custom_nodes_dir = f"{comfy_dir}/custom_nodes/"
 changelog_file = "CHANGELOG.md"
 
 
-def get_latest_commit(repo_path):
+def get_latest_commit(repo_path, branch_name=None):
+    """Fetches the latest commit hash from a given branch, or defaults to main/master."""
+
     def try_branch(branch):
         try:
+            # Fetch the specific branch from origin to ensure it's up-to-date
+            print(f"Fetching latest from origin/{branch}...")
             subprocess.run(
                 ["git", "fetch", "origin", branch],
                 cwd=repo_path,
@@ -37,19 +41,18 @@ def get_latest_commit(repo_path):
         except subprocess.CalledProcessError:
             return None
 
-    try:
-        # Try main branch first, fall back to master
-        for branch in ["main", "master"]:
-            commit = try_branch(branch)
-            if commit:
-                return commit
+    # Determine which branches to check based on whether a specific branch was provided.
+    branches_to_check = [branch_name] if branch_name else ["main", "master"]
+    
+    for branch in branches_to_check:
+        if not branch: continue # Skip if branch_name was None or empty
+        commit = try_branch(branch)
+        if commit:
+            # Return the first successful commit found
+            return commit
 
-        print(f"Failed to fetch latest commit for {repo_path}")
-        return None
-
-    except subprocess.CalledProcessError:
-        print(f"Failed to fetch latest commit for {repo_path}")
-        return None
+    print(f"Failed to fetch latest commit for {repo_path} from branches: {', '.join(branches_to_check)}")
+    return None
 
 
 def update_json_file(repos):
@@ -102,6 +105,7 @@ with open(json_file, "r") as file:
 for repo in repos:
     repo_url = repo["repo"]
     current_commit = repo["commit"]
+    branch = repo.get("branch")
     repo_name = os.path.basename(repo_url.replace(".git", ""))
 
     print(f"\nChecking {repo_name}...")
@@ -112,8 +116,9 @@ for repo in repos:
         print(f"Repository {repo_name} not found. Skipping.")
         continue
 
-    # Get the latest commit on the main branch
-    latest_commit = get_latest_commit(repo_path)
+    # Pass the branch to the function
+    print(f"Repository is on branch: {branch if branch else 'default (main/master)'}")
+    latest_commit = get_latest_commit(repo_path, branch)
 
     if latest_commit is None:
         print(f"Failed to fetch latest commit for {repo_name}. Skipping.")
@@ -122,7 +127,7 @@ for repo in repos:
     if latest_commit[:7] != current_commit[:7]:
         print(f"Update available for {repo_name}")
         print(f"Current commit: {current_commit[:7]}")
-        print(f"Latest commit: {latest_commit[:7]}")
+        print(f"Latest commit:  {latest_commit[:7]}")
 
         # Generate GitHub comparison URL
         compare_url = f"{repo_url}/compare/{current_commit[:7]}...{latest_commit[:7]}"

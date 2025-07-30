@@ -37,7 +37,7 @@ def get_repo_name(url):
     return os.path.basename(urlparse(url).path)
 
 
-def clone_repository(url, repo_name):
+def clone_repository(url, repo_name, branch=None):
     """Clone the repository to custom_nodes directory."""
     repo_path = os.path.join(custom_nodes_dir, repo_name)
     if os.path.exists(repo_path):
@@ -45,8 +45,13 @@ def clone_repository(url, repo_name):
         sys.exit(1)
 
     try:
+        clone_command = ["git", "clone"]
+        if branch:
+            clone_command.extend(["-b", branch])
+        clone_command.extend([url, repo_path])
+        
         subprocess.run(
-            ["git", "clone", url, repo_path],
+            clone_command,
             check=True,
             capture_output=True,
             text=True,
@@ -58,7 +63,7 @@ def clone_repository(url, repo_name):
         )
         return repo_path
     except subprocess.CalledProcessError as e:
-        print(f"Error cloning repository: {e}")
+        print(f"Error cloning repository: {e.stderr}")
         sys.exit(1)
 
 
@@ -78,7 +83,7 @@ def get_latest_commit(repo_path):
         sys.exit(1)
 
 
-def update_json_file(url, commit):
+def update_json_file(url, commit, branch=None):
     """Update custom_nodes.json with new repository."""
     try:
         if os.path.exists(json_file):
@@ -92,7 +97,11 @@ def update_json_file(url, commit):
             print(f"Error: Repository {url} already exists in {json_file}")
             sys.exit(1)
 
-        repos.append({"repo": url, "commit": commit[:7]})
+        new_repo = {"repo": url, "commit": commit[:7]}
+        if branch:
+            new_repo["branch"] = branch
+            
+        repos.append(new_repo)
 
         with open(json_file, "w") as f:
             json.dump(repos, f, indent=2)
@@ -118,7 +127,7 @@ def update_changelog(repo_name, repo_url):
         while content and not content[0].strip():
             content.pop(0)
 
-        if content[0].strip() != f"## {today}":
+        if not content or content[0].strip() != f"## {today}":
             content.insert(0, f"## {today}\n\n")
 
         # Find the index of the current day's section
@@ -164,11 +173,17 @@ def main():
         print("Error: Invalid GitHub URL")
         sys.exit(1)
 
+    branch = input("Enter branch name (optional, press Enter for default): ").strip()
+    if not branch:
+        branch = None
+
     repo_name = get_repo_name(github_url)
     print(f"\nAdding custom node: {repo_name}")
+    if branch:
+        print(f"Using branch: {branch}")
 
     # Clone repository
-    repo_path = clone_repository(github_url, repo_name)
+    repo_path = clone_repository(github_url, repo_name, branch)
     print(f"Cloned repository to {repo_path}")
 
     # Get latest commit
@@ -176,7 +191,7 @@ def main():
     print(f"Latest commit: {commit[:7]}")
 
     # Update JSON file
-    update_json_file(github_url, commit)
+    update_json_file(github_url, commit, branch)
     print(f"Updated {json_file}")
 
     # Update changelog

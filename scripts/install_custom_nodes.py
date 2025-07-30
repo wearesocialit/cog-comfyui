@@ -21,6 +21,7 @@ with open(json_file, "r") as file:
 for repo in repos:
     repo_url = repo["repo"]
     commit_hash = repo["commit"]
+    branch = repo.get("branch")  # Get branch if it exists
     repo_name = os.path.basename(repo_url.replace(".git", ""))
 
     # Check if the repository directory already exists
@@ -30,7 +31,12 @@ for repo in repos:
         print(
             f"Cloning {repo_url} into {repo_path} and checking out to commit {commit_hash}"
         )
-        subprocess.run(["git", "clone", "--recursive", "-q", repo_url, repo_path])
+        clone_command = ["git", "clone"]
+        if branch:
+            clone_command.extend(["-b", branch])
+        clone_command.extend(["--recursive", "-q", repo_url, repo_path])
+        subprocess.run(clone_command)
+
 
         # Store the current directory and change to the repository's directory
         current_dir = os.getcwd()
@@ -56,6 +62,9 @@ for repo in repos:
             if response.lower() == "y":
                 print(f"Checking out to commit {commit_hash}")
                 subprocess.run(["git", "fetch", "-q"])
+                if branch:
+                    subprocess.run(["git", "checkout", "-q", branch])
+                    subprocess.run(["git", "pull", "-q"])
                 subprocess.run(["git", "checkout", "-q", commit_hash])
                 subprocess.run(["git", "submodule", "update", "--init", "--recursive", "-q"])
             else:
