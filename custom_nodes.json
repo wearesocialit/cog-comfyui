@@ -276,7 +276,8 @@
   },
   {
     "repo": "https://github.com/kijai/ComfyUI-WanVideoWrapper",
-    "commit": "8479624"
+    "commit": "406643f",
+    "branch": "multitalk"
   },
   {
     "repo": "https://github.com/sipherxyz/comfyui-art-venture",
@@ -331,15 +332,11 @@
     "commit": "24bda41"
   },
   {
-    "repo": "https://github.com/ltdrdata/ComfyUI-Manager",
-    "commit": "b07082a"
-  },
-  {
     "repo": "https://github.com/ManglerFTW/ComfyI2I",
-    "commit": "72bc6a5"
+    "commit": "2bd011b"
   },
   {
-    "repo": "https://github.com/kijai/ComfyUI-WanVideoWrapper",
-    "commit": "998a69c"
+    "repo": "https://github.com/SipherAGI/comfyui-animatediff",
+    "commit": "08aad38"
   }
 ]

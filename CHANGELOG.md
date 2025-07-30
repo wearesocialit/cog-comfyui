@@ -1,8 +1,13 @@
+## 2025-07-30
+
+New nodes:
+
+- [Add comfyui-animatediff](https://github.com/SipherAGI/comfyui-animatediff) custom node
+
 ## 2025-07-29
 
 New nodes:
 
-- [Add ComfyUI-Manager](https://github.com/ltdrdata/ComfyUI-Manager) custom node
 - [Add ComfyUI-Impact-Subpack](https://github.com/ltdrdata/ComfyUI-Impact-Subpack) custom node
 - [Add ComfyUI_IPAdapter_plus_V2](https://github.com/chflame163/ComfyUI_IPAdapter_plus_V2) custom node
 - [Add comfyui-various](https://github.com/jamesWalker55/comfyui-various) custom node
